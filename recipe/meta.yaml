@@ -27,11 +27,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.8
     - setuptools
   run:
     - pmapper >=0.3
-    - python
+    - python >=3.8
 
 test:
   imports:
